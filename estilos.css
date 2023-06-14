@@ -1,0 +1,195 @@
+@charset "utf-8";
+/* CSS Document */
+
+body {
+	font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+	background-color: #E3E3E6;
+	margin:0;
+
+	}
+
+#contenedor {
+	width:960px;
+	height:auto;
+	margin-left:auto;
+	margin-right:auto;
+
+	
+	}
+
+header {
+	height:290px;
+	}
+
+h1 {
+	margin:0 0 0 40px;
+	font-size:36px;
+	color:#333;
+	
+	}
+
+a {
+	color:#80C141;
+	text-decoration:none;
+	}
+#botonera_principal {
+	width:940px;
+	height:70px;
+	border-left: 20px solid #80C141;
+	background-color:#FFF;
+	}
+
+#botonera_principal ul {
+	margin:0;
+	padding:0;
+	list-style-type:none;}
+
+#botonera_principal ul li {
+	display: inline;
+}
+
+#botonera_principal ul li a {
+	display: inline-block;
+	color:#333;
+	text-decoration:none;
+	text-align: center;
+	border-right:1px dotted #CCC;
+	width: 187px;
+	height: 70px;
+	line-height: 70px;
+	
+	}
+	
+#botonera_principal ul li a:hover {
+	background-color:#80C141;
+	}
+
+	#botonera {
+		width:463px;
+		height:60px;
+		background-color: cadetblue;
+		}
+	
+	#botonera ul {
+		margin:0;
+		padding:0;
+		list-style-type:none;}
+	
+	#botonera ul li {
+		display: inline;
+	}
+	
+	#botonera ul li a {
+		display: inline-block;
+		color:white;
+		text-decoration:none;
+		text-align: center;
+		border-right:1px dotted #CCC;
+		width: 150px;
+		height: 60px;
+		line-height: 60px;
+		
+		}
+		
+	#botonera ul li a:hover{
+		background-color: steelblue;
+		}
+
+
+	#info_imagen {
+		width: 400px;
+		height: 200px;
+		margin-top: 20px;
+		font-size: 10px;
+	}
+    #imagen {
+		width: 100%;
+		float: left;
+		margin-top: -25px;
+		margin-left: 50px;
+	}
+	
+#marca {
+	background-image:url(imagenes/fondo_marca.jpg);
+	height:200px;
+	padding-top:27px;
+	border-left:solid 20px #333;
+
+	}
+
+	#caja_noticias {
+		width: 400px;
+	    height: auto;
+	    margin: 10px;
+		box-sizing: border-box;
+		float: left;
+		
+	}
+	img {
+		width: auto;
+		height: auto;
+		max-width: 400px;
+		max-height: 300px;
+	}
+
+	#formulario {
+		width: 700px;
+		float: left;
+		margin: 10px;
+	}
+
+	input {
+		width: 100%;
+		margin-bottom: 5px;
+		padding: 10px;
+	}
+
+	#formcontacto {
+		width: 70%;
+	}
+	textarea {
+		width: 103%;
+		height: 80px;
+	}
+
+#contenido {
+	padding:20px;
+	height: 960px;
+	background-color:#FFF;
+	border-left: 20px solid #80C141;
+	
+	
+	}
+#uni4_1, #uni4_2, #uni4_3, #uni4_4 {
+	margin: 10px;
+}
+#uni4_1 {
+	background-color: #ffffcc;
+}
+#uni4_2 {
+	background-color: #e6ffcc;
+}
+#uni4_3 {
+	background-color: #ccf2ff;
+}
+#uni4_4 {
+	background-color: #ffccff;
+}
+
+.ajustar {
+	width: 100%;
+}
+
+h2 {
+	color:#666;}
+
+footer {
+	background-color:#80C141;
+	padding:20px;
+	border-left: 20px solid #333;
+
+	}
+
+footer a {
+	color:#FFF;
+	font-weight:bold;}
